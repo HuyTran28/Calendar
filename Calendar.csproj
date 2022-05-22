@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{169E0BFD-7D00-4CAF-8F2A-FA2E3544B9CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Calendar</RootNamespace>
+    <AssemblyName>Calendar</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\5.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\6.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\7.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\8.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\9.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\10.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\11.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\12.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\13.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\14.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\14_2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\15.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\16.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\17.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\18.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\19.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\20.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\21.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\22.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\23.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\24.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\25.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\25_12.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\26.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\27.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\28.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\30.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\30_4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\31.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\31_10.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\Mid-Au.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\Tet1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\Tet2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackgroundImage\Tet3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
